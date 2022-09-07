@@ -83,6 +83,10 @@ Weitere Terminals, die angepriesen werden
 * Nah an der Bash: zsh
 * Alternative zu zsh: Fish
 
+https://www.zsh.org/
+
+https://fishshell.com/
+
 ---
 
 ### Mein Shell-Favorite: zsh
@@ -232,7 +236,6 @@ https://github.com/zsh-users/zsh-autosuggestions
 
 Empfiehlt Befehle, während man in der CLI tippt, basierend auf history
 
-
 ---
 
 ###### git
@@ -261,7 +264,11 @@ mvncvst
 
 ```shell
 k
-
+kgp
+kgpw
+kdp
+kdel
+kdelp
 ```
 
 ---
@@ -378,8 +385,6 @@ https://github.com/sharkdp/bat
 
 * Ein built-in Linux Kommando
 * Es lässt benutzer-definierte Befehle im Intervall durchlaufen
-
-
 
 ---
 
