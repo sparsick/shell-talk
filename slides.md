@@ -8,6 +8,8 @@ date: DD.MM.YYYY
 
 Herbstcampus 2022, Nürnberg
 
+08.09.2022
+
 @SandraParsick
 
 ---
@@ -61,19 +63,17 @@ Dieser Vortrag wird im Terminal vorgestellt mit Hilfe von:
 
 
 Linux:
-Tilix 
-Konsole
+* Konsole
+* [Tilix](https://gnunn1.github.io/tilix-web/)
 
-
-Mac: iterm2
+Mac: [iterm2](https://iterm2.com)
 
 Weitere Terminals, die angepriesen werden
-* Terminology
-* Terminator
-* fig
-* warp
+* [Terminology](https://www.enlightenment.org/about-terminology)
+* [fig](https://fig.io/) (nur Mac)
+* [warp](https://www.warp.dev/) (nur Mac)
+* [Hyper](https://hyper.is/)
 
-Windows
 
 ---
 
@@ -179,6 +179,7 @@ https://github.com/unixorn/awesome-zsh-plugins#plugins
 #### Meine favorisierten oh-my-zsh Plugins
 
 ###### Bundled Plugins
+
 * jump - allows to mark dirs and jump to marks
 * z - autojump
 * history-substring-search -  zsh implementation of the Fish shell's history search feature
@@ -187,13 +188,16 @@ https://github.com/unixorn/awesome-zsh-plugins#plugins
 * kubectl - kubectl completion and alias
 
 ###### External Plugins
+
 * zsh-autosuggestions - Fish-like fast/unobtrusive autosuggestions for zsh.
+
 https://github.com/zsh-users/zsh-autosuggestions
 
 
 ---
 
 ###### jump
+
 ```shell
 jump <mark-name> 	
 mark [mark-name] 	
@@ -204,6 +208,7 @@ marks
 ---
 
 ###### z
+
 ```shell
 z [-chlrtx] [regex1 regex2 ... regexn]
 OPTIONS
@@ -231,11 +236,32 @@ It suggests commands as you type based on history and completions.
 
 ###### git
 
+```shell
+g
+gcl
+gl
+gco
+gaa
+gcmsg
+gp
+```
+
 ---
 ###### mvn
 
+```shell
+mvncv
+mvnci
+mvncvst
+```
+
 
 ###### kubectl
+
+```shell
+k
+
+```
 
 ---
 
@@ -249,55 +275,267 @@ It suggests commands as you type based on history and completions.
 ### Weitere nützliche Quellen zur Shell
 
 ---
-### Vereinfachung von Toolverwaltung
+### Vereinfachung der Toolverwaltung
 
 * sdkman
 * nvm
+* asdf
+
+---
+#### sdkman 
+
+SDKMAN! hilft bei der Verwaltung mehrerer SDKs aus dem Java Ökosystem
+
+https://sdkman.io/
+
+
+```shell
+sdk list
+sdk list maven
+sdk install maven 3.8.6
+sdk use java 8.0.282.hs-adpt
+sdk env init
+```
+
+---
+#### nvm
+
+nvm hilft bei der Verwaltung verschiedener NodeJS Versionen
+
+https://github.com/nvm-sh/nvm
+
+```shell
+nvm install 16                   
+nvm use 16                        
+nvm alias default 8.1.0               
+```
+
+---
+#### asdf
+
+asdf verwaltet die Versionen von allen möglichen Runtime Tools
+
+https://asdf-vm.com
 
 ---
 
 ### Entwicklungstätigkeiten
 
 * neofetch
-* gitfetch
+* onefetch
 * cloc
 * scc
 * bat
 * watch
 * atop/htop
 
+---
+
+#### neofetch
+
+System Informations Tool
+
+https://github.com/dylanaraps/neofetch
+
+---
+
+
+#### onefetch
+
+Neofetch für Git Repositories
+
+https://github.com/o2sh/onefetch
+
+---
+
+#### cloc
+
+cloc zählt Leerzeilen, Kommentarzeilen und physikalische Zeilen in verschiedenen Programmiersprachen
+
+https://github.com/AlDanial/cloc
+
+---
+
+#### scc (Sloc Cloc and Code)
+
+scc zählt wie cloc Zeilen, berechnet aber noch zusätzlich die Code Komplexität
+
+https://github.com/boyter/scc
+
+---
+
+
+#### bat
+
+cat mit Syntaxhighlighting
+
+https://github.com/sharkdp/bat
+
+---
+
+#### watch
+
+* Ein built-in Linux Kommando
+* Es lässt benutzer-definierte Befehle im Intervall durchlaufen
+
+
+
+---
+
+
+#### atop / htop
+
+* Prozessmanager
+* `top` weitergedacht
+
+https://www.atoptool.nl/
+
+https://htop.dev/
 
 ---
 
 ### Netzwerk
 
 * httpie
+* siege
 * mosh
 * xxh
 * tmux
-* siege
 * dig
 * termshark / tshark
 
 ---
 
+#### httpie
+
+Intuitiver HTTP Client
+
+https://httpie.io/cli
+
+---
+
+#### siege
+
+Load Tester und Benchmark
+
+https://github.com/JoeDog/siege
+
+---
+
+
+#### mosh
+
+Mobile Shell 
+* Ersatz für SSH Terminals, wenn die Verbindungen mal schlecht sind
+
+https://mosh.org/
+
+---
+
+#### xxh
+
+Remote Shell Konfigurator
+
+https://github.com/xxh/xxh
+
+---
+
+#### tmux
+
+Terminal- Multiplexer
+
+https://github.com/tmux/tmux
+
+---
+
+#### dig
+
+DNS lookup
+
+Teil der dnstool Sammlung
+
+---
+
+#### termshark
+
+Wireshark für das Terminal
+
+https://termshark.io/
+
+---
+
 ### Containertools
-* Dive
+* dive
 * trivy
 * k9s
 
 ---
 
+#### dive
+
+Werkzeug, um die einzelnen Layer eines Docker Images zu inspektieren
+
+https://github.com/wagoodman/dive
+
+---
+
+#### trivy
+
+Vulnerability/Misconfiguration/secret Scanner für Container und andere Artifakte
+
+https://aquasecurity.github.io/trivy
+
+---
+
+#### k9s
+K8s Manager für das Terminal
+
+https://k9scli.io/
+---
+
+
 ### Suchen und finden
 * ag
-- sort
-- unique
+* sort
+* unique
 * jg
 * yg
 * XMLStarlet
 
 ---
 
+
+#### ag
+
+---
+
+
+#### ag
+
+---
+
+#### sort
+
+---
+
+#### unique
+
+---
+
+
+#### jg
+
+---
+
+
+#### yg
+
+---
+
+
+#### XMLStarlet
+
+---
 ### Weitere nützliche Quellen zur Shell
 
 * http://conqueringthecommandline.com/book
@@ -331,5 +569,8 @@ man <command>
 ## Fragen?
 
 @SandraParsick
+
 mail@sandra-parsick.de
+
+
 https://github.com/sparsick/shell-talk
