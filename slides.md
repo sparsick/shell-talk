@@ -504,36 +504,62 @@ https://k9scli.io/
 
 ---
 
-
 #### ag
 
----
+Wekrzeug, um Code durchzusuchen
 
+https://geoff.greer.fm/ag/
 
-#### ag
 
 ---
 
 #### sort
 
+* Sortierer
+* Teil der GNU CoreUtils
+
+https://www.gnu.org/software/coreutils/
+
 ---
 
-#### unique
+#### uniq
+
+* Sucht und zählt duplizierte Zeile
+* Teil der GNU CoreUtils
+
+https://www.gnu.org/software/coreutils/
+
 
 ---
 
 
 #### jg
 
+* JSON Processor
+* `sed` für JSON Daten
+
+https://stedolan.github.io/jq/
+
 ---
 
-
 #### yg
+
+* YAML Processor
+* angelehnt an jq
+* kann auch JSON und XML
+
+
+https://mikefarah.gitbook.io/yq/
 
 ---
 
 
 #### XMLStarlet
+
+* Es transformiert, durchsucht, validiert und editiert XML-Dokumente 
+* Es unterstützt die Berechung von XPath
+
+http://xmlstar.sourceforge.net/
 
 ---
 ### Weitere nützliche Quellen zur Shell
