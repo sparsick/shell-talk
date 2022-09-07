@@ -180,11 +180,11 @@ https://github.com/unixorn/awesome-zsh-plugins#plugins
 
 ###### Bundled Plugins
 
-* jump - allows to mark dirs and jump to marks
+* jump - kann Ordner markiereen und zu diesen Markierungen springen
 * z - autojump
-* history-substring-search -  zsh implementation of the Fish shell's history search feature
-* git - git alias and functions
-* mvn - maven completion and alias
+* history-substring-search -  zsh Implementierung des Fish shell's history search feature
+* git - git alias und  Funktionen
+* mvn - maven completion und alias
 * kubectl - kubectl completion and alias
 
 ###### External Plugins
@@ -223,14 +223,15 @@ OPTIONS
 ---
 ###### history-substring-search
 
-* zsh implementation of the Fish shell's history search feature
-* type in any part of any command from history and then press chosen keys, such as the UP and DOWN arrows, to cycle through matches
+* zsh Implementierung der the Fish shell's history search feature
+
 
 ###### zsh-autosuggestions
 
 https://github.com/zsh-users/zsh-autosuggestions
 
-It suggests commands as you type based on history and completions.
+Empfiehlt Befehle, während man in der CLI tippt, basierend auf history
+
 
 ---
 
@@ -506,7 +507,7 @@ https://k9scli.io/
 
 #### ag
 
-Wekrzeug, um Code durchzusuchen
+Werkzeug, um Code durchzusuchen
 
 https://geoff.greer.fm/ag/
 
