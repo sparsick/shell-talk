@@ -497,16 +497,18 @@ https://aquasecurity.github.io/trivy
 K8s Manager für das Terminal
 
 https://k9scli.io/
+
 ---
 
 
 ### Suchen und finden
 * ag
-* sort
-* unique
-* jg
-* yg
+* jq
+* yq
 * XMLStarlet
+* sort
+* uniq
+
 
 ---
 
@@ -519,6 +521,34 @@ https://geoff.greer.fm/ag/
 
 ---
 
+#### jq
+
+* JSON Processor
+* `sed` für JSON Daten
+
+https://stedolan.github.io/jq/
+
+---
+
+#### yq
+
+* YAML Processor
+* angelehnt an jq
+* kann auch JSON und XML
+
+
+https://mikefarah.gitbook.io/yq/
+
+---
+
+
+#### XMLStarlet
+
+* Es transformiert, durchsucht, validiert und editiert XML-Dokumente 
+
+http://xmlstar.sourceforge.net/
+
+---
 #### sort
 
 * Sortierer
@@ -535,37 +565,6 @@ https://www.gnu.org/software/coreutils/
 
 https://www.gnu.org/software/coreutils/
 
-
----
-
-
-#### jg
-
-* JSON Processor
-* `sed` für JSON Daten
-
-https://stedolan.github.io/jq/
-
----
-
-#### yg
-
-* YAML Processor
-* angelehnt an jq
-* kann auch JSON und XML
-
-
-https://mikefarah.gitbook.io/yq/
-
----
-
-
-#### XMLStarlet
-
-* Es transformiert, durchsucht, validiert und editiert XML-Dokumente 
-* Es unterstützt die Berechung von XPath
-
-http://xmlstar.sourceforge.net/
 
 ---
 ### Weitere nützliche Quellen zur Shell
