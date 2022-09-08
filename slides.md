@@ -418,6 +418,8 @@ Intuitiver HTTP Client
 
 https://httpie.io/cli
 
+Beispiel API: https://swapi.dev/
+
 ---
 
 #### siege
