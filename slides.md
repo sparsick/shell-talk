@@ -277,9 +277,9 @@ kdelp
 
 ### Vereinfachung von Toolverwaltung
 ### Entwicklungstätigkeiten
-### Netzwerk
-### Containertools
 ### Suchen und finden
+### Containertools
+### Netzwerk
 ### Weitere nützliche Quellen zur Shell
 
 ---
@@ -336,6 +336,7 @@ https://asdf-vm.com
 * bat
 * watch
 * atop/htop
+* httpie
 
 ---
 
@@ -400,18 +401,6 @@ https://htop.dev/
 
 ---
 
-### Netzwerk
-
-* httpie
-* siege
-* mosh
-* xxh
-* tmux
-* dig
-* termshark / tshark
-
----
-
 #### httpie
 
 Intuitiver HTTP Client
@@ -421,87 +410,6 @@ https://httpie.io/cli
 Beispiel API: https://swapi.dev/
 
 ---
-
-#### siege
-
-Load Tester und Benchmark
-
-https://github.com/JoeDog/siege
-
----
-
-
-#### mosh
-
-Mobile Shell 
-* Ersatz für SSH Terminals, wenn die Verbindungen mal schlecht sind
-
-https://mosh.org/
-
----
-
-#### xxh
-
-Remote Shell Konfigurator
-
-https://github.com/xxh/xxh
-
----
-
-#### tmux
-
-Terminal- Multiplexer
-
-https://github.com/tmux/tmux
-
----
-
-#### dig
-
-DNS lookup
-
-Teil der dnstool Sammlung
-
----
-
-#### termshark
-
-Wireshark für das Terminal
-
-https://termshark.io/
-
----
-
-### Containertools
-* dive
-* trivy
-* k9s
-
----
-
-#### dive
-
-Werkzeug, um die einzelnen Layer eines Docker Images zu inspektieren
-
-https://github.com/wagoodman/dive
-
----
-
-#### trivy
-
-Vulnerability/Misconfiguration/secret Scanner für Container und andere Artifakte
-
-https://aquasecurity.github.io/trivy
-
----
-
-#### k9s
-K8s Manager für das Terminal
-
-https://k9scli.io/
-
----
-
 
 ### Suchen und finden
 * ag
@@ -567,6 +475,96 @@ https://www.gnu.org/software/coreutils/
 
 https://www.gnu.org/software/coreutils/
 
+---
+
+### Containertools
+* dive
+* trivy
+* k9s
+
+---
+
+#### dive
+
+Werkzeug, um die einzelnen Layer eines Docker Images zu inspektieren
+
+https://github.com/wagoodman/dive
+
+---
+
+#### trivy
+
+Vulnerability/Misconfiguration/secret Scanner für Container und andere Artifakte
+
+https://aquasecurity.github.io/trivy
+
+---
+
+#### k9s
+K8s Manager für das Terminal
+
+https://k9scli.io/
+
+---
+
+### Netzwerk
+
+* siege
+* mosh
+* xxh
+* tmux
+* dig
+* termshark / tshark
+
+---
+
+#### siege
+
+Load Tester und Benchmark
+
+https://github.com/JoeDog/siege
+
+---
+
+
+#### mosh
+
+Mobile Shell 
+* Ersatz für SSH Terminals, wenn die Verbindungen mal schlecht sind
+
+https://mosh.org/
+
+---
+
+#### xxh
+
+Remote Shell Konfigurator
+
+https://github.com/xxh/xxh
+
+---
+
+#### tmux
+
+Terminal- Multiplexer
+
+https://github.com/tmux/tmux
+
+---
+
+#### dig
+
+DNS lookup
+
+Teil der dnstool Sammlung
+
+---
+
+#### termshark
+
+Wireshark für das Terminal
+
+https://termshark.io/
 
 ---
 ### Weitere nützliche Quellen zur Shell
