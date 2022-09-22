@@ -6,9 +6,9 @@ date: DD.MM.YYYY
 
 # Per Shell durch die Techie-Galaxy
 
-Herbstcampus 2022, Nürnberg
+JUG Saxony Day 2022, Dresden
 
-08.09.2022
+23.09.2022
 
 @SandraParsick
 
