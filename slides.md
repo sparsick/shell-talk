@@ -6,9 +6,9 @@ date: DD.MM.YYYY
 
 # Per Shell durch die Techie-Galaxy
 
-JUG Saxony Day 2022, Dresden
+BaselOne 2022, Basel
 
-23.09.2022
+19.10.2022
 
 @SandraParsick
 
