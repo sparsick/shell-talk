@@ -589,6 +589,10 @@ https://termshark.io/
 man <command>
 ```
 
+### tldr pages
+
+https://tldr.sh/
+
 ### Help Flag
 
 ```shell
