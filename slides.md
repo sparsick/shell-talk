@@ -6,9 +6,9 @@ date: DD.MM.YYYY
 
 # Per Shell durch die Techie-Galaxy
 
-BaselOne 2022, Basel
+IT Tage 2022, Remote
 
-19.10.2022
+15.12.2022
 
 @SandraParsick
 
@@ -26,6 +26,7 @@ BaselOne 2022, Basel
 * Cyberland
 * Podcast: Ready-for-Review.dev
 * Homepage: https://www.sandra-parsick.de
+* Mastodon:@sparsick@mastodon.social
 * Twitter: @SandraParsick
 
 
@@ -604,6 +605,8 @@ https://tldr.sh/
 ## Fragen?
 
 @SandraParsick
+
+@sparsick@mastodon.social
 
 mail@sandra-parsick.de
 
