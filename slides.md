@@ -6,9 +6,9 @@ date: DD.MM.YYYY
 
 # Per Shell durch die Techie-Galaxy
 
-IT Tage 2022, Remote
+JUG Schweiz, Bern
 
-15.12.2022
+13.06.2023
 
 @SandraParsick
 
@@ -70,7 +70,6 @@ Linux:
 Mac: [iterm2](https://iterm2.com)
 
 Weitere Terminals, die angepriesen werden
-* [Terminology](https://www.enlightenment.org/about-terminology)
 * [fig](https://fig.io/) (nur Mac)
 * [warp](https://www.warp.dev/) (nur Mac)
 * [Hyper](https://hyper.is/)
@@ -506,66 +505,6 @@ K8s Manager für das Terminal
 
 https://k9scli.io/
 
----
-
-### Netzwerk
-
-* siege
-* mosh
-* xxh
-* tmux
-* dig
-* termshark / tshark
-
----
-
-#### siege
-
-Load Tester und Benchmark
-
-https://github.com/JoeDog/siege
-
----
-
-
-#### mosh
-
-Mobile Shell 
-* Ersatz für SSH Terminals, wenn die Verbindungen mal schlecht sind
-
-https://mosh.org/
-
----
-
-#### xxh
-
-Remote Shell Konfigurator
-
-https://github.com/xxh/xxh
-
----
-
-#### tmux
-
-Terminal- Multiplexer
-
-https://github.com/tmux/tmux
-
----
-
-#### dig
-
-DNS lookup
-
-Teil der dnstool Sammlung
-
----
-
-#### termshark
-
-Wireshark für das Terminal
-
-https://termshark.io/
 
 ---
 ### Weitere nützliche Quellen zur Shell
