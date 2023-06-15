@@ -6,9 +6,9 @@ date: DD.MM.YYYY
 
 # Per Shell durch die Techie-Galaxy
 
-JUG Schweiz, Luzern
+JUG Schweiz, Zürich
 
-14.06.2023
+15.06.2023
 
 @SandraParsick
 
