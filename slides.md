@@ -184,7 +184,7 @@ https://github.com/unixorn/awesome-zsh-plugins#plugins
 
 ###### Bundled Plugins
 
-* jump - kann Ordner markiereen und zu diesen Markierungen springen
+* jump - kann Ordner markieren und zu diesen Markierungen springen
 * z - autojump
 * history-substring-search -  zsh Implementierung des Fish shell's history search feature
 * git - git alias und  Funktionen
