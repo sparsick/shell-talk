@@ -1,4 +1,4 @@
-⚠️**This repositoy is moved to https://codeberg.org/sparsick/shell-talk**⚠️
+⚠️ **This repositoy is moved to https://codeberg.org/sparsick/shell-talk** ⚠️
 
 # shell-talk
 
